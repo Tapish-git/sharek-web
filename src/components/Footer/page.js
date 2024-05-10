@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "@mui/material";
 import Link from "next/link";
 import Image from "next/image";
-import styles from "./FooterStyles.module.css";
+import styles from "./footerStyles.module.css";
 
 const Footer = () => {
   return (
