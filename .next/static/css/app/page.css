@@ -1,0 +1,271 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_wrapper__xDBJh{
+  background-color: white;
+  color: black;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Footer/FooterStyles.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.FooterStyles_link__miXOS {
+  width: auto;
+  text-decoration: none;
+  color: gray;
+  margin-bottom: 12px;
+  padding-bottom: 5px;
+}
+
+.FooterStyles_link__miXOS:hover {
+  border-bottom: 2px solid #9d396e;
+  color: white;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/sections/HeroSection/heroSectionStyles.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+.heroSectionStyles_moveIn__9PULE {
+    animation-name: heroSectionStyles_move-in__0EQnK;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; /* Keeps the element in its final state after the animation ends */
+    position: relative; /* Ensure the element is positioned relative to its parent */
+}
+
+@keyframes heroSectionStyles_move-in__0EQnK {
+    from {
+        top: 100%; /* Start the animation from being 100% below its original position */
+    }
+    to {
+        top: 0%; /* Move the element to the bottom of its container */
+    }
+}
+
+@keyframes heroSectionStyles_fadeInFromBottom__OtFPY {
+    from {
+      opacity: 0;
+      transform: translateY(60%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .heroSectionStyles_fadeInFromBottom__OtFPY {
+    animation-name: heroSectionStyles_fadeInFromBottom__OtFPY;
+    animation-duration: 1s;
+  }
+  
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/sections/OneStop/OneStopStyles.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes OneStopStyles_moveIn__oLvl2 {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  
+
+@keyframes OneStopStyles_fadeInFromBottom__ibXMp {
+    from {
+      opacity: 0;
+      transform: translateY(60%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .OneStopStyles_fadeInFromBottom__ibXMp {
+    animation-name: OneStopStyles_fadeInFromBottom__ibXMp;
+    animation-duration: 1s;
+  }
+  
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/sections/WhatsSpecial/WhatsSpecialStyles.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes WhatsSpecialStyles_moveIn__MPGgn {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+@keyframes WhatsSpecialStyles_fadeInFromBottom__TDgV2 {
+    from {
+      opacity: 0;
+      transform: translateY(60%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .WhatsSpecialStyles_fadeInFromBottom__TDgV2 {
+    animation-name: WhatsSpecialStyles_fadeInFromBottom__TDgV2;
+    animation-duration: 1s;
+  }
+  
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/ChooseAccordingNavigator/ChoooseAccordingNavigatorStyles.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* components/Navigator.module.css */
+
+.ChoooseAccordingNavigatorStyles_navigator__Gb2qi {
+    
+    width: 980px;
+    height: 76px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    padding: 16px 32px 16px 32px;
+  }
+  
+  .ChoooseAccordingNavigatorStyles_button__wK6_e {
+    width: 130px;
+    height: 44px;
+    padding: 10px 20px 10px 20px;
+    gap: 24px;
+    border-radius: 8px;
+    /* opacity: 0px; */
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .ChoooseAccordingNavigatorStyles_selected__tQjQI {
+    background-color: white;
+    color: black;
+  }
+  
+  .ChoooseAccordingNavigatorStyles_content__YUKWL {
+    margin-top: 20px;
+  }
+  
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/sections/ChooseAccordingly/ChooseAccordinglyStyles.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes ChooseAccordinglyStyles_moveIn__rLf_2 {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+@keyframes ChooseAccordinglyStyles_fadeInFromBottom__oyt4D {
+    from {
+      opacity: 0;
+      transform: translateY(60%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .ChooseAccordinglyStyles_fadeInFromBottom__oyt4D {
+    animation-name: ChooseAccordinglyStyles_fadeInFromBottom__oyt4D;
+    animation-duration: 1s;
+  }
+  
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/sections/TestDrive/testDriveStyles.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes testDriveStyles_moveIn__AEITX {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+@keyframes testDriveStyles_fadeInFromBottom__9zwPD {
+    from {
+      opacity: 0;
+      transform: translateY(60%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .testDriveStyles_fadeInFromBottom__9zwPD {
+    animation-name: testDriveStyles_fadeInFromBottom__9zwPD;
+    animation-duration: 1s;
+  }
+  
+  /* testDriveStyles.module.css */
+
+.testDriveStyles_wavyAnimation__Wr_M0 {
+    animation-name: testDriveStyles_waveAnimation__1YCP4;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes testDriveStyles_waveAnimation__1YCP4 {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+  }
+  
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/sections/HostYourCar/hostYourCarStyles.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+.hostYourCarStyles_moveIn__U5LG6 {
+    animation: hostYourCarStyles_moveInAnimation__vf2GW 1s forwards;
+  }
+  
+  @keyframes hostYourCarStyles_moveInAnimation__vf2GW {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+  }
+  
+
+@keyframes hostYourCarStyles_fadeInFromBottom__Klj2p {
+    from {
+      opacity: 0;
+      transform: translateY(60%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .hostYourCarStyles_fadeInFromBottom__Klj2p {
+    animation-name: hostYourCarStyles_fadeInFromBottom__Klj2p;
+    animation-duration: 1s;
+  }
+  
