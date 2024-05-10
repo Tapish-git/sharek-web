@@ -1,0 +1,43 @@
+@keyframes moveIn {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+@keyframes fadeInFromBottom {
+    from {
+      opacity: 0;
+      transform: translateY(60%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fadeInFromBottom {
+    animation-name: fadeInFromBottom;
+    animation-duration: 1s;
+  }
+  
+  /* testDriveStyles.module.css */
+
+.wavyAnimation {
+    animation-name: waveAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes waveAnimation {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+  }
+  
